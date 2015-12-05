@@ -1,0 +1,18 @@
+@import '../../sass/helper';
+@import '../../sass/colors';
+
+.input-with-options {
+  input {
+    position: relative;
+  }
+  .suggestion {
+    &.show {
+      max-height: 500px;
+    }
+    li {
+      @include border-box;
+      padding: 0 10px;
+      border-bottom: 1px solid map-get($master, 'dividers');
+    }
+  }
+}

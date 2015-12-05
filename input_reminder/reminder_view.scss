@@ -1,0 +1,15 @@
+@import '../../sass/colors';
+
+.reminder-view {
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  /*color: map-get($master, 'dividers');*/
+  /*color: map-get($primary, 'lighter');*/
+  &:hover {
+    /*color: map-get($master, 'text-heading');*/
+    background-color: map-get($master, 'dividers');
+  }
+}

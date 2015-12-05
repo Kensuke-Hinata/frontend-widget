@@ -1,0 +1,29 @@
+@import '../../sass/_helper.scss';
+
+.multi-select-view {
+  position: relative;
+
+  .selected-view-container {
+    display: inline-block;
+  }
+
+  input {
+    border: none;
+    &:focus {
+      box-shadow: none;
+      border: none;
+    }
+  }
+
+  .reminder-view-container {
+    position: absolute;
+    left: -1px;
+    width: 100%;
+    display: none;
+    z-index: 1;
+    background-color: white;
+    max-height: 200px;
+    overflow: scroll;
+    border: 1px solid #e6e6e6;
+  }
+}

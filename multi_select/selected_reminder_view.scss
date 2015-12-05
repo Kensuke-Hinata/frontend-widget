@@ -1,0 +1,14 @@
+@import '../../sass/colors';
+
+.selected-reminder-view {
+  margin: 5px;
+  padding: 2px 7px;
+  display: inline-block;
+  background-color: map-get($master, 'dividers');
+  border-radius: 20px;
+
+  .selected-option-content {
+    display: inline-block;
+    font-weight: bold;
+  }
+}
