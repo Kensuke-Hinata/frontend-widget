@@ -1,2 +1,2 @@
 # frontend-widget
-some widgets written with Backbone.js.
+some widgets written in Marionette.
